@@ -37,7 +37,7 @@ public class Account {
     }
 
     public void widhdraw(double amount){
-        balance -= amount;
+        balance -= (amount) + 5;
     }
 
     public void depoist(double amount){
